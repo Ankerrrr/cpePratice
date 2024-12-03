@@ -1,0 +1,2 @@
+
+int changeToDec(string &a) {
