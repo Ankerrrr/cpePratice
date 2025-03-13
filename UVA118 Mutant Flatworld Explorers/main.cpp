@@ -62,7 +62,7 @@ void solve(const vector<int> &size, const int question[3], string command, vecto
   nowX = question[0];
   nowY = question[1];
   nowDir = question[2];
-  bool Lost;
+  bool Lost = false;
 
   for (int i = 0; i < commandLen; i++) {
 
